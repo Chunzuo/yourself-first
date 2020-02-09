@@ -80,5 +80,8 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
+.contact_bg {
+  background-image: url("../../../assets/img/bg_book_appointment.jpg");
+}
 </style>

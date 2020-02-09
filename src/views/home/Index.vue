@@ -6,6 +6,8 @@
     <div class="content">
       <div class="post_item post_item_single post_featured_default">
         <section class="post_content">
+          <home-welcome></home-welcome>
+
           <div class="wrapper">
             <home-service></home-service>
           </div>
@@ -34,6 +36,7 @@ import HomeHelpYou from "./components/HomeHelpYou";
 import HomeClientSay from "./components/HomeClientSay";
 import HomeArticles from "./components/HomeArticles";
 import HomeContactForm from "./components/HomeContactForm";
+import HomeWelcome from "./components/HomeWelcome";
 export default {
   components: {
     HomeSlider,
@@ -42,13 +45,11 @@ export default {
     HomeHelpYou,
     HomeClientSay,
     HomeArticles,
-    HomeContactForm
+    HomeContactForm,
+    HomeWelcome
   }
 };
 </script>
 
 <style lang="css" scoped>
-.contact_bg {
-  background-image: url("../../assets/img/background_img_1.png");
-}
 </style>
