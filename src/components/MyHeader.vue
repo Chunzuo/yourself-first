@@ -2,64 +2,6 @@
   <div class="page_wrap">
     <div class="top_panel_fixed_wrap"></div>
     <!-- Header -->
-
-    <!-- <header class="top_panel_wrap top_panel_style_3 scheme_original">
-      <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
-        <div class="scheme_dark">
-          <div class="top_panel_top top_panel_inner_style_3">
-            <div class="content_wrap clearfix">
-              <div class="top_panel_top_contact_area contact_address">
-                <i class="icon icon-house158"></i>
-                <span>101 Hudson Street, Jersey City, NJ, 07302</span>
-              </div>
-              <div class="top_panel_top_user_area">
-                <div class="top_panel_top_contact_area contact_email">
-                  <i class="icon icon-mail81"></i>
-                  <span>
-                    <a href="mailto:info@yoursite.com">JILLIANH@YOURSELFFIRST.ORG</a>
-                  </span>
-                </div>
-                <div class="top_panel_top_contact_area contact_phone">
-                  <i class="icon icon-telephone51"></i>
-                  <span>
-                    <a href="tel:+2015462442">201-546-2442</a>
-                  </span>
-                </div>
-                <ul id="menu_user" class="menu_user_nav">
-                  <li class="menu-item menu-item-type-post_type">
-                    <a href="appointment.html">Make an appointment</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="scheme_light">
-          <div class="top_panel_middle top_panel_inner_style_3">
-            <div class="content_wrap">
-              <div class="contact_logo">
-                <div class="logo">
-                  <a href="index.html">
-                    <img src="@/assets/img/logo.png" class="logo_main" alt />
-                    <img src="@/assets/img/logo_fixed.png" class="logo_fixed" alt />
-                  </a>
-                </div>
-              </div>
-              <div class="menu_main_wrap">
-                <nav class="menu_main_nav_area">
-                  <ul id="menu_main" class="menu_main_nav">
-                    <li class="menu-item menu-item-has current-menu-item">
-                      <a href="#">Home</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>-->
-
     <header class="top_panel_wrap top_panel_style_1 scheme_ menu_show">
       <div class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above">
         <div class="scheme_dark">
@@ -68,27 +10,25 @@
               <div class="columns_wrap columns_fluid">
                 <div class="column-2_5 contact_logo">
                   <div class="logo">
-                    <a href="index.html">
+                    <router-link to="/">
                       <img src="@/assets/img/logo4.png" class="logo_main" alt />
-                    </a>
+                    </router-link>
                   </div>
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-house158"></span>
-                  <span
-                    class="contact_label contact_address_1"
-                  >101 Hudson Street, Jersey City, NJ, 07302</span>
+                  <span class="contact_label contact_address_1">{{profile.address}}</span>
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-mail"></span>
                   <span class="contact_label contact_address_1">
-                    <a href="mailto:jillianh@yourselffirst.org">JILLIANH@YOURSELFFIRST.ORG</a>
+                    <a :href="`mailto:${profile.email}`">{{profile.email}}</a>
                   </span>
                 </div>
                 <div class="column-1_5 contact_field contact_phone">
                   <span class="contact_icon icon-telephone51"></span>
                   <span class="contact_label contact_phone">
-                    <a href="tel:+2015462442">201-546-2442</a>
+                    <a href="tel:+2015462442">{{profile.phone}}</a>
                   </span>
                 </div>
               </div>
@@ -101,8 +41,13 @@
               <div class="menu_main_wrap">
                 <nav class="menu_main_nav_area">
                   <ul id="menu_main" class="menu_main_nav">
-                    <li class="menu-item menu-item-has current-menu-item">
-                      <a href="#">Home</a>
+                    <li
+                      v-for="(item, index) in headerItems"
+                      :key="`header-item-${index}`"
+                      class="menu-item"
+                      :class="{'current-menu-item': currentHeaderItem == item.text}"
+                    >
+                      <router-link :to="item.link">{{item.text}}</router-link>
                     </li>
                   </ul>
                 </nav>
@@ -130,116 +75,8 @@
         <div class="panel_top">
           <ul id="menu_main_mobile" class="menu_main_nav">
             <li class="menu-item current-menu-item current_menu_item">
-              <a href="#">Home</a>
+              <router-link to="/">Home</router-link>
             </li>
-            <!-- <li class="menu-item current-menu-ancestor menu-item-has-children">
-              <a href="#">Features</a>
-              <ul class="sub-menu">
-                <li class="menu-item">
-                  <a href="about-me.html">About Me</a>
-                </li>
-                <li class="menu-item">
-                  <a href="pricing.html">Pricing</a>
-                </li>
-                <li class="menu-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <li class="menu-item">
-                  <a href="typography.html">Typography</a>
-                </li>
-                <li class="menu-item">
-                  <a target="_blank" href="doc/index.html">Documentation</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#">Gallery</a>
-              <ul class="sub-menu">
-                <li class="menu-item">
-                  <a href="gallery-grid.html">Grid Gallery</a>
-                </li>
-                <li class="menu-item">
-                  <a href="gallery-masonry.html">Masonry Gallery</a>
-                </li>
-                <li class="menu-item">
-                  <a href="gallery-cobbles.html">Cobbles Gallery</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#">Blog</a>
-              <ul class="sub-menu">
-                <li class="menu-item">
-                  <a href="category-standard-blog.html">Standard Blog</a>
-                </li>
-                <li class="menu-item">
-                  <a href="category-without-sidebar.html">Without Sidebar</a>
-                </li>
-                <li class="menu-item menu-item-has-children">
-                  <a href="#">Blog Masonry</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="category-masonry-2-columns.html"
-                        >Masonry 2 Columns</a
-                      >
-                    </li>
-                    <li class="menu-item">
-                      <a href="category-masonry-3-columns.html"
-                        >Masonry 3 Columns</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu-item menu-item-has-children">
-                  <a href="#">Blog Portfolio</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="category-portfolio-2-columns.html">
-                        Portfolio 2 Columns
-                      </a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="category-portfolio-3-columns.html">
-                        Portfolio 3 Columns
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu-item">
-                  <a href="category-post-formats.html">
-                    Post Formats
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="shop.html">Shop</a>
-              <ul class="sub-menu">
-                <li class="menu-item">
-                  <a href="shop.html">Shop</a>
-                </li>
-                <li class="menu-item">
-                  <a href="product-single.html">Single Product</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="contact.html">Contact</a>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="forums.html">Forums</a>
-              <ul class="sub-menu">
-                <li class="menu-item">
-                  <a href="activity.html">Activity</a>
-                </li>
-                <li class="menu-item">
-                  <a href="groups.html">Groups</a>
-                </li>
-                <li class="menu-item">
-                  <a href="members.html">Members</a>
-                </li>
-              </ul>
-            </li>-->
           </ul>
         </div>
         <!-- /panel_top -->
@@ -261,7 +98,24 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    profile() {
+      return this.$store.state.profile;
+    },
+    currentHeaderItem() {
+      return this.$store.state.header.currentItem;
+    }
+  },
+  data() {
+    return {
+      headerItems: [
+        { text: "Home", link: "/" },
+        { text: "About Me", link: "/aboutme" }
+      ]
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped></style>

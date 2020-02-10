@@ -6,10 +6,10 @@
         class="sc_services sc_services_style_services-4 sc_services_type_icons cd_accent1_hover margin_top_huge margin_bottom_huge"
       >
         <h2 class="sc_services_title sc_item_title home_h2">Services</h2>
-        <div class="sc_services_descr sc_item_descr">
+        <!-- <div class="sc_services_descr sc_item_descr">
           It's my goal to create a comfortable, safe environment where we'll
           work together to achieve your goals.
-        </div>
+        </div>-->
         <div class="sc_columns columns_wrap">
           <div class="column-1_2 col_right">
             <div class="sc_services_item sc_services_item_1 odd first" style="max-width: 40%">

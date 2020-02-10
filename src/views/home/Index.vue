@@ -16,9 +16,9 @@
 
           <home-help-you></home-help-you>
 
-          <home-client-say></home-client-say>
+          <home-review></home-review>
 
-          <home-articles></home-articles>
+          <!-- <home-articles></home-articles> -->
 
           <home-contact-form></home-contact-form>
         </section>
@@ -33,8 +33,8 @@ import HomeSlider from "./components/HomeSlider";
 import HomeService from "./components/HomeService";
 import HomeAboutMe from "./components/HomeAboutMe";
 import HomeHelpYou from "./components/HomeHelpYou";
-import HomeClientSay from "./components/HomeClientSay";
-import HomeArticles from "./components/HomeArticles";
+import HomeReview from "./components/HomeReview";
+// import HomeArticles from "./components/HomeArticles";
 import HomeContactForm from "./components/HomeContactForm";
 import HomeWelcome from "./components/HomeWelcome";
 export default {
@@ -43,10 +43,13 @@ export default {
     HomeService,
     HomeAboutMe,
     HomeHelpYou,
-    HomeClientSay,
-    HomeArticles,
+    HomeReview,
+    // HomeArticles,
     HomeContactForm,
     HomeWelcome
+  },
+  mounted() {
+    this.$store.commit("setCurrentHeaderItem", "Home");
   }
 };
 </script>

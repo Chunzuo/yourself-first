@@ -30,7 +30,7 @@
                         in Social Work graduating Summa Cum Laude and was
                         inducted in the Phi Alpha Honor's society. I received a
                         certification in Telehealth facilitation from
-                        <strong>Thomas Jefferson University</strong> Hospital as
+                        <strong>Thomas Jefferson University Hospital</strong> as
                         well as a Certificate in Advanced Assessment and
                         Diagnosis from
                         <strong>New York University</strong>.

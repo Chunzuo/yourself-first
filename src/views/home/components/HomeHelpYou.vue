@@ -13,9 +13,7 @@
                   <div
                     class="sc_services sc_services_style_services-1 sc_services_type_images margin_top_huge margin_bottom_huge"
                   >
-                    <h2 class="home_h2 sc_services_title sc_item_title">
-                      How I Can Help You
-                    </h2>
+                    <h2 class="home_h2 sc_services_title sc_item_title">How I Can Help You</h2>
                     <div class="sc_services_descr sc_item_descr">
                       It's my goal to create a comfortable, safe environment,
                       where we'll work to achieve the goal together
@@ -26,24 +24,11 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_1 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Stress Management"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
-                                    <img
-                                      alt="Stress Management"
-                                      src="@/assets/img/service-1.jpg"
-                                    />
+                            <div class="sc_services_item sc_services_item_1 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Stress Management">
+                                  <a class="hover_icon hover_icon_link" href="#">
+                                    <img alt="Stress Management" src="@/assets/img/service-1.jpg" />
                                   </a>
                                 </div>
                               </div>
@@ -66,20 +51,10 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_2 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Dating  Relationships"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
+                            <div class="sc_services_item sc_services_item_2 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Dating  Relationships">
+                                  <a class="hover_icon hover_icon_link" href="#">
                                     <img
                                       alt="Dating  Relationships"
                                       src="@/assets/img/service-2.jpg"
@@ -105,24 +80,11 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_3 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Self-Esteem Issues"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
-                                    <img
-                                      alt="Self-Esteem Issues"
-                                      src="@/assets/img/service-3.jpg"
-                                    />
+                            <div class="sc_services_item sc_services_item_3 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Self-Esteem Issues">
+                                  <a class="hover_icon hover_icon_link" href="#">
+                                    <img alt="Self-Esteem Issues" src="@/assets/img/service-3.jpg" />
                                   </a>
                                 </div>
                               </div>
@@ -144,24 +106,11 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_4 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Self-Esteem Issues"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
-                                    <img
-                                      alt="Self-Esteem Issues"
-                                      src="@/assets/img/service-4.jpg"
-                                    />
+                            <div class="sc_services_item sc_services_item_4 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Self-Esteem Issues">
+                                  <a class="hover_icon hover_icon_link" href="#">
+                                    <img alt="Self-Esteem Issues" src="@/assets/img/service-4.jpg" />
                                   </a>
                                 </div>
                               </div>
@@ -183,24 +132,11 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_5 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Family Psychology"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
-                                    <img
-                                      alt="Family Psychology"
-                                      src="@/assets/img/service-5.jpg"
-                                    />
+                            <div class="sc_services_item sc_services_item_5 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Family Psychology">
+                                  <a class="hover_icon hover_icon_link" href="#">
+                                    <img alt="Family Psychology" src="@/assets/img/service-5.jpg" />
                                   </a>
                                 </div>
                               </div>
@@ -222,20 +158,10 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_6 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Social Anxiety Disorder"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
+                            <div class="sc_services_item sc_services_item_6 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Social Anxiety Disorder">
+                                  <a class="hover_icon hover_icon_link" href="#">
                                     <img
                                       alt="Social Anxiety Disorder"
                                       src="@/assets/img/service-6.jpg"
@@ -258,23 +184,13 @@
                           </div>
                         </div>
                       </swiper-slide>
-                      <swiper-slide
-                        ><div class="swiper-slide">
+                      <swiper-slide>
+                        <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_7 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Elderly Couples Issues"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
+                            <div class="sc_services_item sc_services_item_7 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Elderly Couples Issues">
+                                  <a class="hover_icon hover_icon_link" href="#">
                                     <img
                                       alt="Elderly Couples Issues"
                                       src="@/assets/img/service-7.jpg"
@@ -300,20 +216,10 @@
                       <swiper-slide>
                         <div class="swiper-slide">
                           <div class="sc_services_item_wrap">
-                            <div
-                              class="sc_services_item sc_services_item_8 even"
-                            >
-                              <div
-                                class="sc_services_item_featured post_featured"
-                              >
-                                <div
-                                  class="post_thumb"
-                                  data-title="Depression Treatment"
-                                >
-                                  <a
-                                    class="hover_icon hover_icon_link"
-                                    href="#"
-                                  >
+                            <div class="sc_services_item sc_services_item_8 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Depression Treatment">
+                                  <a class="hover_icon hover_icon_link" href="#">
                                     <img
                                       alt="Depression Treatment"
                                       src="@/assets/img/service-8.jpg"
@@ -340,7 +246,7 @@
                       <!-- <div
                         class="swiper-pagination sc_slider_pagination_wrap"
                         slot="pagination"
-                      ></div> -->
+                      ></div>-->
                       <!-- <div slot="button-prev">
                         <div
                           class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom"
@@ -356,7 +262,7 @@
                         <div class="sc_slider_controls_wrap">
                           <a class="sc_slider_next" href="#"></a>
                         </div>
-                      </div> -->
+                      </div>-->
                       <!-- <div class="swiper-scrollbar" slot="scrollbar"></div> -->
                     </swiper>
                   </div>
@@ -372,14 +278,7 @@
 </template>
 
 <script>
-import "swiper/dist/css/swiper.css";
-import { swiper, swiperSlide } from "vue-awesome-swiper";
-
 export default {
-  components: {
-    swiper,
-    swiperSlide
-  },
   data() {
     return {
       swiperOption: {
