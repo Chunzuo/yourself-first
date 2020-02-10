@@ -8,6 +8,9 @@ import "swiper/dist/css/swiper.css";
 import VueAwesomeSwiper from "vue-awesome-swiper";
 Vue.use(VueAwesomeSwiper);
 
+// Minialist Timeline
+import "../node_modules/timeline-vuejs/dist/timeline-vuejs.css";
+
 Vue.config.productionTip = false;
 
 new Vue({
