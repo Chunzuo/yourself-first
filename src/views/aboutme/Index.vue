@@ -192,4 +192,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.about_img img {
+  height: 500px;
+  width: 350px;
+}
+</style>
