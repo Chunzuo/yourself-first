@@ -3,28 +3,18 @@
     <about-me-slide></about-me-slide>
     <div class="wrapper img_cover_about_me">
       <div class="sc_content content_wrap">
-        <div
-          class="columns_wrap sc_columns columns_nofluid autoheight sc_columns_count_12"
-        >
-          <div
-            class="column-5_12 sc_column_item sc_column_item_1 odd first span_5"
-          >
+        <div class="columns_wrap sc_columns columns_nofluid autoheight sc_columns_count_12">
+          <div class="column-5_12 sc_column_item sc_column_item_1 odd first span_5">
             <div class="about_img">
               <img src="@/assets/img/jillian2.png" alt />
             </div>
           </div>
           <div class="column-7_12 sc_column_item sc_column_item_6 even span_7">
-            <div
-              class="sc_section sc_section_block margin_left_large alignleft"
-            >
+            <div class="sc_section sc_section_block margin_left_large alignleft">
               <div class="sc_section_inner">
                 <div class="sc_section_content_wrap">
-                  <h1 class="sc_title sc_title_regular h1_home">
-                    Dr. Jillian L. Holguin
-                  </h1>
-                  <div class="expert_clinical">
-                    LCSW, CCTP-II - Psychotherapist
-                  </div>
+                  <h1 class="sc_title sc_title_regular h1_home">Dr. Jillian L. Holguin</h1>
+                  <div class="expert_clinical">LCSW, CCTP-II - Psychotherapist</div>
                   <div class="text_column content_element">
                     <div class="wrapper">
                       <p class="about_text_2">
@@ -57,15 +47,14 @@
           <div class="wrapper">
             <div class="sc_section margin_top_huge margin_bottom_large">
               <div class="sc_section_inner">
-                <h2 class="sc_section_title sc_item_title home_h2">
-                  Specialities & Approach
-                </h2>
+                <h2 class="sc_section_title sc_item_title home_h2">Specialities & Approach</h2>
 
                 <p>
                   I specialize in
-                  <b>trauma specifically sexual trauma/sex specific treatment</b
-                  >, <b>anxiety/depression</b>,
-                  <b>obsessive thought disorders</b>, <b>addictions</b>,
+                  <b>trauma specifically sexual trauma/sex specific treatment</b>,
+                  <b>anxiety/depression</b>,
+                  <b>obsessive thought disorders</b>,
+                  <b>addictions</b>,
                   <b>co-occuring disorders</b>,
                   <b>bi-polar disorder and sex therapy</b>. I take pride in the
                   integrity and quality of the treatment I provide my clients.
@@ -92,27 +81,25 @@
           <div class="wrapper">
             <div class="sc_section margin_top_huge margin_bottom_large">
               <div class="sc_section_inner">
-                <h2 class="sc_section_title sc_item_title home_h2">
-                  Accociations / Memberships
-                </h2>
+                <h2 class="sc_section_title sc_item_title home_h2">Accociations / Memberships</h2>
 
                 <p>
                   I am also a member of
                   <b>The National Association of Social Workers (NASW)</b>,
-                  <b
-                    >The Association for the Treatment of Sexual Abusers
-                    (ATSA)</b
-                  >,
-                  <b
-                    >The National Association of Women Business Owners
-                    (NAWBO)</b
-                  >, NJ Chamber of Commerce as well as
+                  <b>
+                    The Association for the Treatment of Sexual Abusers
+                    (ATSA)
+                  </b>,
+                  <b>
+                    The National Association of Women Business Owners
+                    (NAWBO)
+                  </b>, NJ Chamber of Commerce as well as
                   <b>The National Federation of Independent Business (NFIB)</b>
                   and
-                  <b
-                    >The International association of eating disorders
-                    professional foundation</b
-                  >.
+                  <b>
+                    The International association of eating disorders
+                    professional foundation
+                  </b>.
                 </p>
                 <div style="text-align: center;">
                   <img src="@/assets/img/association.png" />
@@ -125,13 +112,9 @@
     </div>
 
     <div class="content_wrap wrapper img_align">
-      <div
-        class="sc_line sc_line_position_center_center sc_line_style_solid margin_top_large"
-      ></div>
-      <h3 class="sc_title sc_title_regular home_h2">
-        Interview with Jillian Holguin, LCSW, CCTP-II
-      </h3>
-      <div class="text_column content_element ">
+      <div class="sc_line sc_line_position_center_center sc_line_style_solid margin_top_large"></div>
+      <h3 class="sc_title sc_title_regular home_h2">Interview with Jillian Holguin, LCSW, CCTP-II</h3>
+      <div class="text_column content_element">
         <div class="wrapper">
           <p>
             With the chaos that life can bring, it’s easy to forget about making
@@ -151,7 +134,7 @@
         class="sc_image alignleft sc_image_shape_square img_square1"
         style="max-height: 400px !important;"
       >
-        <img src="@/assets/img/interview_img.png" alt="" />
+        <img src="@/assets/img/interview_img.png" alt />
         <!-- <figcaption><span></span> Title of image</figcaption> -->
       </figure>
       <div class="text_column content_element">
@@ -197,6 +180,7 @@ import AboutMeExperience from "./components/AboutMeExperience";
 export default {
   mounted() {
     this.$store.commit("setCurrentHeaderItem", "About Me");
+    window.scrollTo(0, 0);
   },
   data() {
     return {};

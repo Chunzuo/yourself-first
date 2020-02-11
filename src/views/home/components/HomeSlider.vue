@@ -7,7 +7,11 @@
             Put Yourself First -
             <p style="margin-top: 30px; font-size: 32px;">Let's begin your Better World.</p>
           </span>
-          <div class="tp-caption rev-btn slide1_btn" id="slide-1-layer-3">More Information</div>
+          <div
+            class="tp-caption rev-btn slide1_btn"
+            id="slide-1-layer-3"
+            @click="$router.push('/aboutme')"
+          >More Information</div>
         </div>
       </slide>
     </carousel>

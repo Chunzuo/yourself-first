@@ -12,20 +12,28 @@
         </div>-->
         <div class="sc_columns columns_wrap">
           <div class="column-1_2 col_right">
-            <div class="sc_services_item sc_services_item_1 odd first" style="max-width: 40%">
+            <div
+              class="sc_services_item sc_services_item_1 odd first"
+              style="max-width: 40%"
+            >
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span class="sc_services_item_title">One on one individual psychotherapy sessions</span>
+                <span class="sc_services_item_title"
+                  >One on one individual psychotherapy sessions</span
+                >
               </a>
             </div>
           </div>
           <div class="column-1_2 col_left">
-            <div class="sc_services_item sc_services_item_2 even" style="max-width: 40%">
+            <div
+              class="sc_services_item sc_services_item_2 even"
+              style="max-width: 40%"
+            >
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span
-                  class="sc_services_item_title"
-                >Clinical Supervision For Therapists LSWs or LMSWs.</span>
+                <span class="sc_services_item_title"
+                  >Clinical Supervision For Therapists LSWs or LMSWs.</span
+                >
               </a>
             </div>
           </div>
@@ -34,7 +42,9 @@
             <div class="sc_services_item sc_services_item_3 odd">
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span class="sc_services_item_title">Telehealth/video/ texting sessions</span>
+                <span class="sc_services_item_title"
+                  >Telehealth/video/ texting sessions</span
+                >
               </a>
             </div>
           </div>
@@ -58,7 +68,9 @@
             <div class="sc_services_item sc_services_item_6 even">
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span class="sc_services_item_title">Family group sessions</span>
+                <span class="sc_services_item_title"
+                  >Family group sessions</span
+                >
               </a>
             </div>
           </div>
@@ -66,7 +78,9 @@
             <div class="sc_services_item sc_services_item_9 odd">
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span class="sc_services_item_title">6 week self-love program!</span>
+                <span class="sc_services_item_title"
+                  >6 week self-love program!</span
+                >
               </a>
             </div>
           </div>
@@ -74,16 +88,19 @@
             <div class="sc_services_item sc_services_item_8 even">
               <a href="#">
                 <span class="sc_icon icon-check71"></span>
-                <span class="sc_services_item_title">Clinical consultation services</span>
+                <span class="sc_services_item_title"
+                  >Clinical consultation services</span
+                >
               </a>
             </div>
           </div>
         </div>
         <div class="sc_services_button sc_item_button">
-          <a
-            href="about-me.html"
+          <router-link
+            to="/services"
             class="sc_button sc_button_square sc_button_style_filled sc_button_size_small"
-          >Explore more</a>
+            >Explore more</router-link
+          >
         </div>
       </div>
     </div>

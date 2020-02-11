@@ -3,7 +3,9 @@
     <div class="top_panel_fixed_wrap"></div>
     <!-- Header -->
     <header class="top_panel_wrap top_panel_style_1 scheme_ menu_show">
-      <div class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above">
+      <div
+        class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above"
+      >
         <div class="scheme_dark">
           <div class="top_panel_middle top_panel_inner_style_1">
             <div class="content_wrap">
@@ -17,18 +19,20 @@
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-house158"></span>
-                  <span class="contact_label contact_address_1">{{profile.address}}</span>
+                  <span class="contact_label contact_address_1">{{
+                    profile.address
+                  }}</span>
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-mail"></span>
                   <span class="contact_label contact_address_1">
-                    <a :href="`mailto:${profile.email}`">{{profile.email}}</a>
+                    <a :href="`mailto:${profile.email}`">{{ profile.email }}</a>
                   </span>
                 </div>
                 <div class="column-1_5 contact_field contact_phone">
                   <span class="contact_icon icon-telephone51"></span>
                   <span class="contact_label contact_phone">
-                    <a href="tel:+2015462442">{{profile.phone}}</a>
+                    <a href="tel:+2015462442">{{ profile.phone }}</a>
                   </span>
                 </div>
               </div>
@@ -45,9 +49,11 @@
                       v-for="(item, index) in headerItems"
                       :key="`header-item-${index}`"
                       class="menu-item"
-                      :class="{'current-menu-item': currentHeaderItem == item.text}"
+                      :class="{
+                        'current-menu-item': currentHeaderItem == item.text
+                      }"
                     >
-                      <router-link :to="item.link">{{item.text}}</router-link>
+                      <router-link :to="item.link">{{ item.text }}</router-link>
                     </li>
                   </ul>
                 </nav>
@@ -111,7 +117,8 @@ export default {
     return {
       headerItems: [
         { text: "Home", link: "/" },
-        { text: "About Me", link: "/aboutme" }
+        { text: "About Me", link: "/aboutme" },
+        { text: "Services", link: "/services" }
       ]
     };
   }
