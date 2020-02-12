@@ -12,21 +12,45 @@
           <div class="contacts_address">
             <address class="address_right">
               Phone:
-              <a href="tel:+1234567890">{{profile.phone}}</a>
+              <a href="tel:+1234567890">{{ profile.phone }}</a>
               <br />Email:
-              <a href="mailto:jillianh@yourselffirst.org">{{profile.email}}</a>
+              <a href="mailto:jillianh@yourselffirst.org">
+                {{
+                profile.email
+                }}
+              </a>
             </address>
-            <address class="address_left">{{profile.address}}</address>
+            <address class="address_left">{{ profile.address }}</address>
           </div>
           <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
             <div class="sc_socials_item">
-              <a :href="profile.instagram" target="_blank" class="social_icons social_instagramm">
+              <a :href="profile.instagram" target="_blank" class="social_icons">
                 <span class="icon-instagramm"></span>
               </a>
             </div>
             <div class="sc_socials_item">
-              <a :href="profile.facebook" target="_blank" class="social_icons social_facebook">
+              <a :href="profile.facebook" target="_blank" class="social_icons">
                 <span class="icon-facebook"></span>
+              </a>
+            </div>
+            <div class="sc_socials_item">
+              <a :href="profile.twitter" target="_blank" class="social_icons">
+                <span class="icon-twitter"></span>
+              </a>
+            </div>
+            <div class="sc_socials_item">
+              <a :href="profile.linkedIn" target="_blank" class="social_icons">
+                <span class="icon-linkedin"></span>
+              </a>
+            </div>
+            <div class="sc_socials_item">
+              <a :href="profile.pinterest" target="_blank" class="social_icons">
+                <span class="icon-pinterest-circled"></span>
+              </a>
+            </div>
+            <div class="sc_socials_item">
+              <a :href="profile.zocdoc" target="_blank" class="social_icons">
+                <b style="cursor: pointer;">z</b>
               </a>
             </div>
           </div>

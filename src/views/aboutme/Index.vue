@@ -1,23 +1,27 @@
 <template>
   <div>
-    <about-me-slide></about-me-slide>
-    <div class="wrapper img_cover_about_me">
+    <!-- <about-me-slide></about-me-slide> -->
+    <div></div>
+    <div class="wrapper img_cover_about_me" id="image-container">
       <div class="sc_content content_wrap">
         <div class="columns_wrap sc_columns columns_nofluid autoheight sc_columns_count_12">
           <div class="column-5_12 sc_column_item sc_column_item_1 odd first span_5">
-            <div class="about_img">
-              <img src="@/assets/img/jillian2.png" alt />
+            <div class="about_img margin_top_small">
+              <img src="@/assets/img/jillian-sm.jpg" alt />
             </div>
           </div>
           <div class="column-7_12 sc_column_item sc_column_item_6 even span_7">
             <div class="sc_section sc_section_block margin_left_large alignleft">
               <div class="sc_section_inner">
                 <div class="sc_section_content_wrap">
-                  <h1 class="sc_title sc_title_regular h1_home">Dr. Jillian L. Holguin</h1>
-                  <div class="expert_clinical">LCSW, CCTP-II - Psychotherapist</div>
+                  <h1
+                    class="sc_title sc_title_regular h1_home"
+                    style="color: white;"
+                  >Dr. Jillian L. Holguin</h1>
+                  <div class="expert_clinical" style="color: white;">LCSW, CCTP-II - Psychotherapist</div>
                   <div class="text_column content_element">
                     <div class="wrapper">
-                      <p class="about_text_2">
+                      <p class="about_text_2" style="color: white;">
                         My name is Jillian Holguin and I am a Licensed Clinical
                         Social Worker practicing in Hudson County, New Jersey
                         specifically downtown Jersey city- Exchange Place. I
@@ -86,14 +90,8 @@
                 <p>
                   I am also a member of
                   <b>The National Association of Social Workers (NASW)</b>,
-                  <b>
-                    The Association for the Treatment of Sexual Abusers
-                    (ATSA)
-                  </b>,
-                  <b>
-                    The National Association of Women Business Owners
-                    (NAWBO)
-                  </b>, NJ Chamber of Commerce as well as
+                  <b>The Association for the Treatment of Sexual Abusers (ATSA)</b>,
+                  <b>The National Association of Women Business Owners (NAWBO)</b>, NJ Chamber of Commerce as well as
                   <b>The National Federation of Independent Business (NFIB)</b>
                   and
                   <b>
@@ -175,18 +173,19 @@
 </template>
 
 <script>
-import AboutMeSlide from "./components/AboutMeSlide";
+// import AboutMeSlide from "./components/AboutMeSlide";
 import AboutMeExperience from "./components/AboutMeExperience";
+
 export default {
   mounted() {
-    this.$store.commit("setCurrentHeaderItem", "About Me");
+    this.$store.commit("setCurrentHeaderItem", "About");
     window.scrollTo(0, 0);
   },
   data() {
     return {};
   },
   components: {
-    AboutMeSlide,
+    // AboutMeSlide,
     AboutMeExperience
   }
 };
@@ -194,7 +193,20 @@ export default {
 
 <style lang="scss" scoped>
 .about_img img {
-  height: 500px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
+  border-radius: 1000px;
+  border: 5px solid white;
+}
+
+#image-container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../../assets/img/aboutme_backimg.jpeg");
+  height: 600px;
+  background-size: cover;
 }
 </style>

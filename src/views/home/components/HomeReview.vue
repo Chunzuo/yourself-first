@@ -10,27 +10,47 @@
             <div class="wrapper">
               <h1
                 class="h1_home sc_title sc_align_center margin_top_huge margin_bottom_null text_center testimonial_text"
-              >Testimonials</h1>
-              <div class="vc_custom_heading ls1px happy_clients">WHAT HAPPY CLIENTS SAY</div>
+              >
+                Testimonials
+              </h1>
+              <div class="vc_custom_heading ls1px happy_clients">
+                WHAT HAPPY CLIENTS SAY
+              </div>
 
               <div
                 class="sc_testimonials sc_testimonials_style_testimonials-3 margin_top_medium margin_bottom_huge index_testimonials"
               >
                 <swiper :options="swiperOption">
-                  <swiper-slide v-for="(review, index) in reviews" :key="`review-${index}`">
+                  <swiper-slide
+                    v-for="(review, index) in reviews"
+                    :key="`review-${index}`"
+                  >
                     <div class="swiper-slide">
                       <div class="sc_testimonial_item">
                         <div class="sc_testimonial_content">
-                          <p>{{review.content}}</p>
+                          <p>{{ review.content }}</p>
                         </div>
                         <div class="sc_testimonial_author">
-                          <span class="sc_testimonial_author_name">{{review.patientName}}</span>
-                          <span class="sc_testimonial_author_position">{{review.date}}</span>
+                          <span class="sc_testimonial_author_name">{{
+                            review.patientName
+                          }}</span>
+                          <span class="sc_testimonial_author_position">{{
+                            review.date
+                          }}</span>
                         </div>
                       </div>
                     </div>
                   </swiper-slide>
                 </swiper>
+
+                <div style="text-align: center;">
+                  <router-link
+                    class="sc_button sc_button_square sc_button_style_filled sc_button_size_small"
+                    to="/testimonial"
+                  >
+                    Show more
+                  </router-link>
+                </div>
               </div>
             </div>
           </div>
@@ -46,7 +66,7 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
         autoplay: 4000,
         loop: true,
@@ -56,9 +76,9 @@ export default {
       reviews: [
         {
           content:
-            "Amazing doctor. I can really rely on Jillian to be there for me and be a positive support system.",
-          patientName: "Daniel L",
-          date: "January 17, 2019"
+            "My experience with Jillian Holguin was nothing short of life-changing. What started as therapy for generalized anxiety disorder and a recent breakup at the lead to the exploration and inner healing of my family life. She allowed me to vocalize things I'd never said out loud without judgment. She watched me cry and break down and hyperventilate and never made me feel weaker for it. Over the last two years, she has shown herself to be an astonishingly strong, honest, and genuine person with a real commitment to personal growth and helping other people. Her influence, her work, and the bond we share are things I am endlessly grateful for. I could not recommend her highly enough.",
+          patientName: "",
+          date: "Feb 05, 2020"
         },
         {
           content:

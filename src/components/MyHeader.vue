@@ -19,9 +19,9 @@
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-house158"></span>
-                  <span class="contact_label contact_address_1">{{
-                    profile.address
-                  }}</span>
+                  <span class="contact_label contact_address_1">
+                    {{ profile.address }}
+                  </span>
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-mail"></span>
@@ -54,6 +54,24 @@
                       }"
                     >
                       <router-link :to="item.link">{{ item.text }}</router-link>
+                    </li>
+                    <li
+                      class="menu-item menu-item-has-children"
+                      :class="{
+                        'current-menu-item': currentHeaderItem == 'About'
+                      }"
+                    >
+                      <router-link to="/aboutme">About</router-link>
+                      <ul class="sub-menu">
+                        <li class="menu-item">
+                          <router-link to="/aboutme">About Me</router-link>
+                        </li>
+                        <li class="menu-item">
+                          <router-link to="/testimonial"
+                            >Testimonials</router-link
+                          >
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </nav>
@@ -117,8 +135,9 @@ export default {
     return {
       headerItems: [
         { text: "Home", link: "/" },
-        { text: "About Me", link: "/aboutme" },
-        { text: "Services", link: "/services" }
+        { text: "Services", link: "/services" },
+        { text: "Contact", link: "/contact" },
+        { text: "FAQ", link: "/faq" }
       ]
     };
   }

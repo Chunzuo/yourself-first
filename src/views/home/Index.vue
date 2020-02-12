@@ -195,7 +195,7 @@ export default {
   },
   mounted() {
     this.$store.commit("setCurrentHeaderItem", "Home");
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
 };
 </script>

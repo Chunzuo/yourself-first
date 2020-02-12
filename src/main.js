@@ -11,6 +11,16 @@ Vue.use(VueAwesomeSwiper);
 // Minialist Timeline
 import "../node_modules/timeline-vuejs/dist/timeline-vuejs.css";
 
+// Google Maps
+import * as VueGoogleMaps from "vue2-google-maps";
+Vue.use(VueGoogleMaps, {
+  load: {
+    // Add your API key here
+    key: "AIzaSyAaPzZ6FPtWRqBIW5OlHrdGuCLBuLLk9uM",
+    libraries: "places" // This is required if you use the Auto complete plug-in
+  }
+});
+
 Vue.config.productionTip = false;
 
 new Vue({
