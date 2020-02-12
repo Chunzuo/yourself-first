@@ -137,7 +137,8 @@ export default {
         { text: "Home", link: "/" },
         { text: "Services", link: "/services" },
         { text: "Contact", link: "/contact" },
-        { text: "FAQ", link: "/faq" }
+        { text: "FAQ", link: "/faq" },
+        { text: "Blog", link: "/blog" }
       ]
     };
   }

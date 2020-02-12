@@ -27,6 +27,14 @@ const routes = [
   {
     path: "/faq",
     component: () => import("../views/Faq.vue")
+  },
+  {
+    path: "/blog",
+    component: () => import("../views/blog/BlogList.vue")
+  },
+  {
+    path: "/blog/:id",
+    component: () => import("../views/blog/BlogDetail.vue")
   }
 ];
 
