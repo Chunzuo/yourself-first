@@ -21,6 +21,11 @@ Vue.use(VueGoogleMaps, {
   }
 });
 
+// Vuesax
+import Vuesax from "vuesax";
+import "vuesax/dist/vuesax.css";
+Vue.use(Vuesax);
+
 Vue.config.productionTip = false;
 
 new Vue({
