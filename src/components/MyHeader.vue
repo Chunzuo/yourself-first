@@ -140,4 +140,25 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+@import url("../assets/css/style.css");
+@import url("../assets/css/skin.responsive.css");
+@import url("../assets/css/responsive.css");
+@import url("../assets/css/font-awesome.min.css");
+@import url("../assets/css/shortcodes/theme.shortcodes.css");
+@import url("../assets/css/fontello/css/fontello.css");
+@import url("../assets/css/skins/less/skin.css");
+@import url("../assets/css/custom-style.min.css");
+
+@import url("../assets/js/testimonialcarousel/slick/style.min.css");
+@import url("../assets/js/draggabletimeline/css/perfect-scrollbar.min.css");
+@import url("../assets/js/draggabletimeline/css/style.css");
+@import url("../assets/js/woocommerce/css/woocommerce-layout.css");
+@import url("../assets/js/woocommerce/css/woocommerce-smallscreen.css");
+@import url("../assets/js/woocommerce/css/woocommerce.css");
+@import url("../assets/js/woocommerce/css/plugin.woocommerce.css");
+@import url("../assets/js/woocommerce/css/prettyPhoto.css");
+@import url("../assets/js/revslider/css/settings.css");
+@import url("../assets/js/tooltipster/css/tooltipster.min.css");
+@import url("../assets/js/tooltipster/css/tooltipster-light.min.css");
+</style>
