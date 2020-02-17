@@ -6,6 +6,7 @@ Vue.use(Vuex);
 import profileModule from "./modules/profileModule";
 import headerModule from "./modules/headerModule";
 import blogModule from "./modules/blodModule";
+import productModule from "./modules/productModule";
 
 export default new Vuex.Store({
   state: {},
@@ -14,6 +15,7 @@ export default new Vuex.Store({
   modules: {
     profile: profileModule,
     header: headerModule,
-    blog: blogModule
+    blog: blogModule,
+    product: productModule
   }
 });

@@ -3,9 +3,7 @@
     <div class="top_panel_fixed_wrap"></div>
     <!-- Header -->
     <header class="top_panel_wrap top_panel_style_1 scheme_ menu_show">
-      <div
-        class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above"
-      >
+      <div class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above">
         <div class="scheme_dark">
           <div class="top_panel_middle top_panel_inner_style_1">
             <div class="content_wrap">
@@ -19,9 +17,7 @@
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-house158"></span>
-                  <span class="contact_label contact_address_1">
-                    {{ profile.address }}
-                  </span>
+                  <span class="contact_label contact_address_1">{{ profile.address }}</span>
                 </div>
                 <div class="column-1_5 contact_field contact_address">
                   <span class="contact_icon icon-mail"></span>
@@ -67,9 +63,7 @@
                           <router-link to="/aboutme">About Me</router-link>
                         </li>
                         <li class="menu-item">
-                          <router-link to="/testimonial"
-                            >Testimonials</router-link
-                          >
+                          <router-link to="/testimonial">Testimonials</router-link>
                         </li>
                       </ul>
                     </li>
@@ -138,7 +132,8 @@ export default {
         { text: "Services", link: "/services" },
         { text: "Contact", link: "/contact" },
         { text: "FAQ", link: "/faq" },
-        { text: "Blog", link: "/blog" }
+        { text: "Blog", link: "/blog" },
+        { text: "Store", link: "/store" }
       ]
     };
   }
