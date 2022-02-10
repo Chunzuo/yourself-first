@@ -12,7 +12,7 @@
     "core-js": "^3.4.4",
     "eslint-plugin-prettier": "^3.1.2",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2",
     "timeline-vuejs": "^1.0.11",
     "vue": "^2.6.10",
